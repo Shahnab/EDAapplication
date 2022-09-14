@@ -79,6 +79,16 @@ DEMO_DATASETS = {
         'url': 'https://raw.githubusercontent.com/duynguyen158/vietnam-population-district/master/vn_pop_dist.csv',
         'nrows': 3000,
         'sep': ','
+    },
+    'Diabetes dataset': {
+        'url': 'https://raw.githubusercontent.com/Aditya-Mankar/Diabetes-Prediction/master/diabetes.csv',
+        'nrows': 10000000000,
+        'sep': ','
+    },
+    'IMDB movie dataset': {
+        'url': 'https://raw.githubusercontent.com/maazh/IMDB-Movie-Dataset-Analysis/master/tmdb-movies.csv',
+        'nrows': 10000000000,
+        'sep': ','
     }
 }
 
