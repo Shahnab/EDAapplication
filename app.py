@@ -224,13 +224,13 @@ def main():
                 viewutil.section_title('Covariance')
                 cov = df.cov()
                 cov
-                if len(cov) and st.checkbox('Hitmap', key='cov_hitmap'):
+                if len(cov) and st.checkbox('Heatmap', key='cov_hitmap'):
                     viewutil.st_plot(sns.heatmap(cov, annot=True))
 
                 viewutil.section_title('Correlation')
                 corr = df.corr()
                 corr
-                if len(corr) and st.checkbox('Hitmap', key='corr_hitmap'):
+                if len(corr) and st.checkbox('Heatmap', key='corr_hitmap'):
                     viewutil.st_plot(sns.heatmap(corr, annot=True))
         
         if EDA_VIEW_CATEGORICAL in selected_eda_views:
